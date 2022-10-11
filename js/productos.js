@@ -18,4 +18,3 @@ function loadProducts() {
     document.querySelector(".productos").appendChild(tarjeta);
   });
 }
-loadProducts();
