@@ -1,4 +1,4 @@
-import productos from "./productos" assert { type: "json" };
+import productos from "./productos.json" assert { type: "json" };
 
 //cargar lista de productos en pantalla
 function loadProducts() {
@@ -18,3 +18,5 @@ function loadProducts() {
     document.querySelector(".productos").appendChild(tarjeta);
   });
 }
+
+loadProducts();
