@@ -7,7 +7,6 @@ let totalCard = 0;
 let countProduct = 0;
 
 //functions
-
 document.onreadystatechange = () =>{
     if(document.readyState === "complete"){
         loadEventListenrs();
