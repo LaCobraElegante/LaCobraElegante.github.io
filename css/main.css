@@ -148,12 +148,19 @@ img{
     top: 0;
     right: 0;
     bottom: 0;
-    width: 41rem;
+    width: 100vw;
     height: 100vh;
     padding: 8.4rem 4rem;
     background-color: #333;
     animation: desplazamiento .5s ease-in-out;
 }
+
+@media(min-width: 768px){
+    .nav {
+	width: 45rem;
+    }
+}
+
 
 /* permite que el texto se vuelva amarillo a la hora de pasar el mouse */
 .nav a:hover{
@@ -207,7 +214,6 @@ img{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
 }
 
 .footerDistributed .footerLeft,

@@ -38,8 +38,38 @@
                     </div>
                 </div>
             </div>
-        </header> 
-        <main>
+        </header>
+        <main class="flexContainer">
+            <div class="cartContainer">
+
+                
+                <div class="cartCard">
+                    <img class="itemImage" src="assets/img/Productos/silla6.jpg">
+                    <div class="itemInfo">
+                        <div class="itemInfoLeft">
+                            <div class="itemTitle">Silla de comedor</div>
+                            <div>Color: blanco, Madera: roble</div>
+                            <div>Costo envío: $3.600</div>
+                            <button class="itemDelete">Eliminar</button>
+                        </div>
+                        <div class="itemQuantitySelectorContainer">
+                            <form>
+                                <input data-quantity="minus" type="submit" value="-" class="itemQuantitySelectorButton" name="minus">
+                                <input autocomplete="off" data-quantity="input" type="tel" value="1" class="itemQuantitySelectorInput" name="quantity">
+                                <input data-quantity="plus" type="submit" value="+" class="itemQuantitySelectorButton" name="plus">
+                            </form>
+                        </div>
+                        <div class="itemPriceTag">$9.000</div>
+                    </div>
+                </div>
+                
+                
+                <div class="totalPrice">
+                    <div class="shipment" >Envío: $3.000</div>
+                    <div class="price">Total + envío: $21.000</div>
+                </div>
+                <div class="buyButtonContainer"><button class="buyButton">Finalizar compra</button></div>
+            </div>
         </main>     
         <footer class="footerDistributed">
             <div class="footerLeft">
