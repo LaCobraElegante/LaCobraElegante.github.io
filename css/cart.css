@@ -6,11 +6,18 @@
 }
 
 .cartContainer{
+    width: 100% ;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 160px 0 160px 0;
     background: #fff;
+}
+
+.emptyCartMsg{
+    text-align: center;
+    font: bold 4rem sans-serif;
+    color: #e0ac1c;
 }
 
 /*Tarjeta de items*/
@@ -20,6 +27,10 @@
     height: 150px;
     width: 80%;
     border-bottom: 1px solid rgba(100,100,100, 0.2);
+}
+
+.hide{
+    display: none;
 }
 
 .cartCard img{
