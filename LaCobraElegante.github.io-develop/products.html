@@ -38,7 +38,10 @@
                             <div class="hamburguesa">
                                 <i class="fa-solid fa-bars"></i>
                             </div>
-                            <a class="modal_opener" title="a"><i class="fas fa-cart-shopping"></i></a>  
+                            <a class="modal_opener" title="a">
+                                <i class="fas fa-cart-shopping"></i>
+                                <span class="badge" id="cant-elementos-carrito">5</span>
+                              </a>  
                         </div>
                         </div>         
                     </div>
@@ -88,12 +91,19 @@
             <section class="modal">
                 <div class="modal_container">
                     <h1>Carrito</h1>
+                    <div class="erase-container">
+                    <button class="erase-cart-button">X</button>
+                    <a class="erase-cart">Vaciar Carrito</a>
+                    </div>
                     <div class="cart-items">
                     </div>
-                    <div class="btn functions">
+                    <div class="btnfunctions">
                         <a href="cart.html">Pagar</a>
                     <a href="#" class="modal_close">Continuar chusmeando</a>
+                    <span >Precio Total: </span>
+                    <p class="precio-total" id="preciototal"></p>
                     </div>
+
                 </div>
             </section>
             <footer class="footerDistributed">
